@@ -1,8 +1,8 @@
 import { Navigate, Route, Routes } from 'react-router-dom'
-import Inicio from '../pages/Inicio'
-import Produtos from '../pages/Produtos'
-import Calculadora from '../pages/Calculadora'
-import Contato from '../pages/Contato'
+import Inicio from '../pages/inicio/Inicio'
+import Produtos from '../pages/produtos/Produtos'
+import Calculadora from '../pages/calculadora/Calculadora'
+import Contato from '../pages/contato/Contato'
 
 export default function AppRouter() {
     return (
