@@ -1,12 +1,5 @@
-import { BrowserRouter } from "react-router-dom";
-import AppRouter from "./routes/AppRouter";
-import Header from "./components/header/Header";
+import AppRouter from './routes/AppRouter'
 
 export default function App() {
-  return (
-    <BrowserRouter>
-      <Header />
-      <AppRouter />
-    </BrowserRouter>
-  )
+  return <AppRouter />
 }
